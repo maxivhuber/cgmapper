@@ -7,7 +7,7 @@ fn main() {
     let matches = App::new("cgmapper")
         .version("1.0")
         .author("Maximilian H. <maximilian.huber@mnd.thm.de>")
-        .about("Map vertex from graph to color")
+        .about("Vertex to color")
         .arg(
             Arg::with_name("data")
                 .short("d")
